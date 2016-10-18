@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                     String diaryContents = editDiary.getText().toString();
                     out.write(diaryContents.getBytes());
                     out.close();
-                    Toast.makeText(getApplicationContext(), "저장이 완료됨", Toast.LENGTH_SHORT).show;
+                    Toast.makeText(getApplicationContext(), "저장이 완료됨", Toast.LENGTH_SHORT).show();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
